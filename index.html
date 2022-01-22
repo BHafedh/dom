@@ -96,7 +96,7 @@
                     <script>function add1() {
                       var elem1 = document.getElementById('prices').innerHTML;
                       var data1 = parseInt(elem1)
-                      data1 = data1 + 10
+                      data1 = data1 + 5
                       document.getElementById('prices').innerHTML = data1
 
                     }</script>
@@ -112,7 +112,7 @@
                     <script>function add2() {
                       var elem2 = document.getElementById('pricess').innerHTML;
                       var data2 = parseInt(elem2)
-                      data2 = data2 + 10
+                      data2 = data2 + 11
                       document.getElementById('pricess').innerHTML = data2
 
                     }</script>
@@ -123,8 +123,16 @@
                 <div class="tm-list-item">          
                   <img src="img/iced-latte.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Iced Latte<span class="price">Dt11.50</span></h3>
+                    <h3 class="tm-list-item-name">Iced Latte<span id="pricesss">11</span></h3>
+                    <script>function add3() {
+                      var elem3 = document.getElementById('pricesss').innerHTML;
+                      var data3 = parseInt(elem3)
+                      data3 = data3 + 1
+                      document.getElementById('pricesss').innerHTML = data3
+
+                    }</script>
                     <p class="tm-list-item-description">Our Iced Latte recipe turns your favorite morning beverage into a refreshing drink that you can enjoy at any time of the day. All you need is some ice, a splash of milk and rich espresso-like coffee from a stovetop brewer. Grab your mason jar to add some cold foam for an elevated twist, or customize your coffee with a little vanilla for a classic Iced Vanilla Latte.</p>
+                    <button onclick=add3()>add</button>
                   </div>
                 </div> 
                                        
@@ -133,33 +141,61 @@
 
             <div id="hot" class="tm-tab-content">
               <div class="tm-list">
-              
+            
                 <div class="tm-list-item">          
                   <img src="img/hot-americano.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Americano<span class="price">Dt8.50</span></h3>
-                    <p class="tm-list-item-description">It is made by adding hot water to an espresso shot. The water dilutes the espresso a bit, giving you the volume of a drip, but with an espresso taste. Read on to learn how to make the perfect tasting Americano.</p>              
+                    <h3 class="tm-list-item-name">Hot Americano<span id="pricessss">8</span></h3>
+                    <script>function add4() {
+                      var elem4 = document.getElementById('pricessss').innerHTML;
+                      var data4 = parseInt(elem4)
+                      data4 = data4 + 10
+                      document.getElementById('pricessss').innerHTML = data4
+                    }</script>
+                    <p class="tm-list-item-description">It is made by adding hot water to an espresso shot. The water dilutes the espresso a bit, giving you the volume of a drip, but with an espresso taste. Read on to learn how to make the perfect tasting Americano.</p>
+                    <button onclick=add4()>add</button>              
                   </div>
                 </div>
                 <div class="tm-list-item">          
                   <img src="img/hot-cappuccino.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Cappuccino<span class="price">Dt9.50</span></h3>
-                    <p class="tm-list-item-description">cappuccino is one part espresso mixed with one part steamed milk, then topped with one part foamed milk. This recipe lets you duplicate your favorite coffeehouse beverage, minus the specialized equipment.</p>                    
+                    <h3 class="tm-list-item-name">Hot Cappuccino<span id="pricesssss">9.50</span></h3>
+                    <script>function add5() {
+                      var elem5 = document.getElementById('pricesssss').innerHTML;
+                      var data5 = parseInt(elem5)
+                      data5 = data5 + 10
+                      document.getElementById('pricesssss').innerHTML = data5
+                    }</script>
+                    <p class="tm-list-item-description">cappuccino is one part espresso mixed with one part steamed milk, then topped with one part foamed milk. This recipe lets you duplicate your favorite coffeehouse beverage, minus the specialized equipment.</p>
+                    <button onclick=add5()>add</button>                     
                   </div>
                 </div>
                 <div class="tm-list-item">          
                   <img src="img/hot-espresso.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Espresso<span class="price">Dt7.50</span></h3>
-                    <p class="tm-list-item-description">An Americano is an espresso-based coffee drink made by adding hot water to a shot of espresso. Typically the drink is prepared at a ratio of 2:1 hot water to espresso. It presents in the cup similarly to a drip, or filter-brewed coffee, but retains the more intense flavor notes of espresso along with a sheen of the espresso’s crema on the surface</p>              
+                    <h3 class="tm-list-item-name">Hot Espresso<span id="pricessssss">7.50</span></h3>
+                    <script>function add6() {
+                      var elem6 = document.getElementById('pricessssss').innerHTML;
+                      var data6 = parseInt(elem6)
+                      data6 = data6 + 10
+                      document.getElementById('pricessssss').innerHTML = data6
+                    }</script>
+                    <p class="tm-list-item-description">An Americano is an espresso-based coffee drink made by adding hot water to a shot of espresso. Typically the drink is prepared at a ratio of 2:1 hot water to espresso. It presents in the cup similarly to a drip, or filter-brewed coffee, but retains the more intense flavor notes of espresso along with a sheen of the espresso’s crema on the surface</p>
+                    <button onclick=add6()>add</button>              
                   </div>
                 </div>
                 <div class="tm-list-item">          
                   <img src="img/hot-latte.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Hot Latte<span class="price">Dt6.50</span></h3>
-                    <p class="tm-list-item-description">A latte is a coffee drink that is normally made with espresso, steamed milk, and milk foam.</p>              
+                    <h3 class="tm-list-item-name">Hot Latte<span id="pricesssssss">6.50</span></h3>
+                    <script>function add7() {
+                      var elem7 = document.getElementById('pricesssssss').innerHTML;
+                      var data7 = parseInt(elem7)
+                      data7 = data7 + 10
+                      document.getElementById('pricesssssss').innerHTML = data7
+                    }</script>
+                    <p class="tm-list-item-description">A latte is a coffee drink that is normally made with espresso, steamed milk, and milk foam.</p>
+                    <button onclick=add7()>add</button>              
                   </div>
                 </div>
                          
@@ -171,29 +207,57 @@
                 <div class="tm-list-item">          
                   <img src="img/smoothie-1.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Strawberry Smoothie<span class="price">Dt12.50</span></h3>
-                    <p class="tm-list-item-description">A latte is a coffee drink that is normally made with espresso, steamed milk, and milk foam..</p>              
+                    <h3 class="tm-list-item-name">Strawberry Smoothie<span id="prix">12.50</span></h3>
+                    <script>function add8() {
+                      var elem8 = document.getElementById('prix').innerHTML;
+                      var data8 = parseInt(elem8)
+                      data8 = data8 + 10
+                      document.getElementById('prix').innerHTML = data8
+                    }</script>
+                    <p class="tm-list-item-description">A latte is a coffee drink that is normally made with espresso, steamed milk, and milk foam..</p>  
+                    <button onclick=add8()>add</button>            
                   </div>
                 </div>
                 <div class="tm-list-item">          
                   <img src="img/smoothie-2.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Red Berry Smoothie<span class="price">Dt14.50</span></h3>
-                    <p class="tm-list-item-description">Variation: Fruit Smoothie Pops: In a blender, combine yogurt, milk, and fruit. Cover and blend until smooth (omit adding ice and blending). Pour mixture into 14, 3-ounce ice-pop molds or paper cups. If using paper cups, cover each cup with foil. Cut a small slit in the center of each foil cover; insert a rounded wooden stick into each pop. Freeze pops for 4 to 6 hours or until firm.</p>                    
+                    <h3 class="tm-list-item-name">Red Berry Smoothie<span id="prixx">14.50</span></h3>
+                    <script>function add9() {
+                      var elem9 = document.getElementById('prixx').innerHTML;
+                      var data9 = parseInt(elem9)
+                      data9 = data9 + 10
+                      document.getElementById('prixx').innerHTML = data9
+                    }</script>
+                    <p class="tm-list-item-description">Variation: Fruit Smoothie Pops: In a blender, combine yogurt, milk, and fruit. Cover and blend until smooth (omit adding ice and blending). Pour mixture into 14, 3-ounce ice-pop molds or paper cups. If using paper cups, cover each cup with foil. Cut a small slit in the center of each foil cover; insert a rounded wooden stick into each pop. Freeze pops for 4 to 6 hours or until firm.</p>
+                    <button onclick=add9()>add</button>                    
                   </div>
                 </div>
                 <div class="tm-list-item">          
                   <img src="img/smoothie-3.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Pineapple Smoothie<span class="price">Dt16.50</span></h3>
-                    <p class="tm-list-item-description">This pineapple smoothie is a tropical combination of pineapple, banana, pineapple  juice and Greek yogurt, all blended together until creamy and smooth. A great smoothie for breakfast or snack time.</p>              
+                    <h3 class="tm-list-item-name">Pineapple Smoothie<span id="prix1">16.50</span></h3>
+                    <script>function add10() {
+                      var elem10 = document.getElementById('prix1').innerHTML;
+                      var data10 = parseInt(elem10)
+                      data10 = data10 + 10
+                      document.getElementById('prix1').innerHTML = data10
+                    }</script>
+                    <p class="tm-list-item-description">This pineapple smoothie is a tropical combination of pineapple, banana, pineapple  juice and Greek yogurt, all blended together until creamy and smooth. A great smoothie for breakfast or snack time.</p>
+                    <button onclick=add10()>add</button>              
                   </div>
                 </div>
                 <div class="tm-list-item">          
                   <img src="img/smoothie-4.png" alt="Image" class="tm-list-item-img">
                   <div class="tm-black-bg tm-list-item-text">
-                    <h3 class="tm-list-item-name">Spinach Smoothie<span class="price">Dt18.50</span></h3>
-                    <p class="tm-list-item-description">For a quick energy boost, whip up this easy spinach smoothie. This healthy treat packs in various fruits and veggies like pineapple, banana, apples into each serving. A nutrient-rich combination of protein, fiber, vitamins, and minerals in each sip.</p>              
+                    <h3 class="tm-list-item-name">Spinach Smoothie<span id="prix2">18.50</span></h3>
+                    <script>function add11() {
+                      var elem11 = document.getElementById('prix2').innerHTML;
+                      var data11 = parseInt(elem11)
+                      data11 = data11 + 10
+                      document.getElementById('prix2').innerHTML = data11
+                    }</script>
+                    <p class="tm-list-item-description">For a quick energy boost, whip up this easy spinach smoothie. This healthy treat packs in various fruits and veggies like pineapple, banana, apples into each serving. A nutrient-rich combination of protein, fiber, vitamins, and minerals in each sip.</p> 
+                    <button onclick=add11()>add</button>             
                   </div>
                 </div>              
               </div>
@@ -211,7 +275,7 @@
                   <p> is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It is the world's largest coffeehouse chain.
 
                     As of November 2021, the company had 33,833 stores in 80 countries, 15,444 of which were located in the United States. Out of Starbucks' U.S.-based stores, over 8,900 are company-operated, while the remainder are licensed.[3]</p>
-                  <p>The rise of the second wave of coffee culture is generally attributed to Starbucks, which introduced a wider variety of coffee experiences. Starbucks serves hot and cold drinks, whole-bean coffee, micro-ground instant coffee, espresso, caffe latte, full and loose-leaf teas, juices, Frappuccino beverages, pastries, and snacks</p>
+                  <p>The rise of the second wave of coffee culture is generally attributed to Starbucks, which introduced a wider variety of coffee experiences. Starbucks serves hot and cold drinks, whole-bean coffee, micro-ground instant coffee, espresso, caffe latte, full and loose-leaf teas, juices, Frappuccino beverages, pastries, and snacks <li> <a href="https://fr.wikipedia.org/wiki/Starbucks#:~:text=Starbucks%20Corporation%20est%20une%20cha%C3%AEne,235%20sur%20le%20continent%20Am%C3%A9ricain."> for more</li></p>
                 </div>                
               </div>
             </div>
@@ -264,7 +328,7 @@
           <div id="contact" class="tm-page-content">
             <div class="tm-black-bg tm-contact-text-container">
               <h2 class="tm-text-primary">Contact Wave</h2>
-              <p>Welcome and you are free to give your feedback and order from there.</p>
+              <p>Welcome and you are free to give your feedback and order from there. <li> <a href="https://www.instagram.com"> instagram</li> <li> <a href="https://www.facebook.com"> facebook</li> </p>
             </div>
             <div class="tm-black-bg tm-contact-form-container tm-align-right">
               <form action="" method="POST" id="contact-form">
